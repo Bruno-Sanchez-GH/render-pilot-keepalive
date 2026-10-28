@@ -4,7 +4,7 @@ on:
   schedule:
     # Ten-minute spacing leaves a buffer before Render's 15-minute idle timeout.
     # Avoid minute zero, when GitHub scheduled workflows are busiest.
-    - cron: '3,13,23,33,43,53 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch:
 
 permissions: {}
